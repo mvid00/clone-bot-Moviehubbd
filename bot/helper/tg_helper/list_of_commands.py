@@ -3,9 +3,9 @@ from bot import CMD_INDEX
 class _BotCommands:
     def __init__(self) -> None:
         self.StartCommand = f'start{CMD_INDEX}'
-        self.MirrorCommand = f'{CMD_INDEX}'
-        self.UnzipMirrorCommand = f'{CMD_INDEX}'
-        self.ZipMirrorCommand = f'{CMD_INDEX}'
+        self.MirrorCommand = f""
+        self.UnzipMirrorCommand = f""
+        self.ZipMirrorCommand = f""
         self.CancelMirror = f'cancel{CMD_INDEX}'
         self.CancelAllCommand = f'cancelall{CMD_INDEX}'
         self.ListCommand = f'list{CMD_INDEX}'
@@ -28,12 +28,12 @@ class _BotCommands:
         self.DeleteCommand = f'del{CMD_INDEX}'
         self.ShellCommand = f'shell{CMD_INDEX}'
         self.ExecHelpCommand = f'exechelp{CMD_INDEX}'
-        self.LeechSetCommand = f'{CMD_INDEX}'
-        self.SetThumbCommand = f'{CMD_INDEX}'
-        self.LeechCommand = f'{CMD_INDEX}'
-        self.UnzipLeechCommand = f'{CMD_INDEX}'
-        self.ZipLeechCommand = f'{CMD_INDEX}'
-        self.LeechWatchCommand = f'{CMD_INDEX}'
-        self.LeechZipWatchCommand = f'{CMD_INDEX}'
+        self.LeechSetCommand = f""
+        self.SetThumbCommand = f""
+        self.LeechCommand = f""
+        self.UnzipLeechCommand = f""
+        self.ZipLeechCommand = f""
+        self.LeechWatchCommand = f""
+        self.LeechZipWatchCommand = f""
         
 BotCommands = _BotCommands()
