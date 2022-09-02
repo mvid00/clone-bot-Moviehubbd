@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "linen-momentum-360617",
+  "private_key_id": "e844134b40990450afef8daedf001bb8b0e74b05",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCrVIi0/KgScfSe\n7EXqcrm+GULg6V2t+D+DCtPEDpZl0YHGilLI21ybKvNwNkw9gpw1jICrygHN4eCM\nN7vEJ/2p9H48lBP32k7VxAnnO+BEBeR9GVP/C7uJdpKega4Jz6ElDyAMuXHQzFbk\n/lwLbmqXINtZDPpOhuXBiES/knbyMsK7pORTKeSkaSRFVH2jO9rSWK+bcSJzAIa0\nVjFTSFJV8lalCGay3CpRUswt2R4X81cAQI0uAJ5rISS2Ewbg7kXMKhSDj31Ufdfa\nc1zUfRGuUNwYjTbTr2NOG7Ouuq2zJvlaJTMo95S3127jh4/1vnH0GrZJUew2N6eA\nl8E/Eb/lAgMBAAECggEAIBJW9OpG3A0Q6Z75B4YqVveLmWaV7rcFzJX+Rjkk1jJ9\nxJioHolRsIo9v8eqRelpLGz8uSu7Yrrhud3E/FcwGNx3tQdTJZZsI3/rCqoetR0V\nRIW1P40GshjMIXfNCHEhjTpjmX4tXBSkP4GN4WXt9hRkeyr+wCxoXe4QUHwuX+/p\n+tykN+fFv7lbJeGVFiopWBxsFXyHVGX1uNIEF0vlXX31IuCfvTy/PwxLM3nMpJxg\n9Q2ELleVV8xPK8whl8LUO5i5JV4rUYcx3YJxL7E/1d43rOAK1qcojzuRGGe1cRdc\nmknW1qU1GD3+jO2qWaQ5X6KTv4tmNhaaCgcY8Z35EQKBgQDhxvQKT6iKD5/e1j+D\n5ta99WC1qZnbhv6eCYsNDD2rAKa50RI2uFB+TxsWwAMaiNXf+ozBliaL53F6yXMk\n567MwZ/ZqEvac+hCYmMQpaMrRbZoeYG3TYiATws8E+olkci6ch+lktSz4kVeUWH/\nS8tGyb0YW8T7PIzBhWdGk9mjLwKBgQDCQ8PRfQlfxEyCIcYzwJWI/ebxzvAiQnRi\nZARh7xC7q7M5+6gBcpBraGS8MeJdZ7JB/U3FK0NqwRXEodnIBFctni1QLlSQ8A6g\neORWJ587JfO7Qbt1CL1Qip9GsUBCKp3QW9NyswQABYA6PpbuagrPmkyEwmoudgUK\n3IhParhZKwKBgBe49c9Xi1fmSF/7lvTe/lU7QQwVY+sjBgHI8ulODfS3vszrYMSL\nHToIScpcJndVRVOhWcTFaAtvKAdEv2pzRXSSK5+NBVtQrmi7Obl4DerwCjhz++Ms\nrFj+9Sk81m9YIAUnFJgrE1pLPgqo9mkCp7sqW0oB6nKTbB6xS6aoxkdVAoGAZz+9\nA8qBAPVD9KYewcLJt1W7OSnTV2IamXCvI538NsK7L0YhtSM+vtdtMtkQhrRmecw3\nWWP1IPgeqbOcHEKyUvyO+N6m86GjJIccVO4aI0W4lP4Ks9lBRV1n6hqrHH+qAOPN\nLlkW9yv1Sv+ZGH4j4NMReD4cUTVI2Mz9ZbhC4qECgYEAgbWMlMIJnZRhsuJ+J6hH\nqIvZfVedDqhM3NAUYhRFLNLKYhR7lwigZKxmhZfAbK4NEp7G4gxzh0/Gimfy7Qzr\nf3KjsrY4Dv3PZI19CN+yNGfh9UBGGiOl75OP/plWJHxSwwkEk8NMhkfFFwNW7ny4\nXIyJ98Da7pdrDLLFuUMLudU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "mfc-jjhaf621p32nstn2wshoat0olm@linen-momentum-360617.iam.gserviceaccount.com",
+  "client_id": "108169644629408160940",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mfc-jjhaf621p32nstn2wshoat0olm%40linen-momentum-360617.iam.gserviceaccount.com"
+}
