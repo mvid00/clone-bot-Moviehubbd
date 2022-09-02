@@ -3,7 +3,10 @@ from bot import CMD_INDEX
 class _BotCommands:
     def __init__(self) -> None:
         self.StartCommand = f'start0{CMD_INDEX}'
-        self.CancelMirror = f'cancel{CMD_INDEX}'
+        self.MirrorCommand = ''
+        self.UnzipMirrorCommand = ''
+        self.ZipMirrorCommand = ''
+        self.CancelMirror = ''
         self.CancelAllCommand = f'cancelall{CMD_INDEX}'
         self.ListCommand = f'list{CMD_INDEX}'
         self.SearchCommand = f'search{CMD_INDEX}'
@@ -20,12 +23,17 @@ class _BotCommands:
         self.LogCommand = f'log{CMD_INDEX}'
         self.CloneCommand = f'clone{CMD_INDEX}'
         self.CountCommand = f'count{CMD_INDEX}'
-        self.WatchCommand = f'watch{CMD_INDEX}'
-        self.ZipWatchCommand = f'zipwatch{CMD_INDEX}'
+        self.WatchCommand = ''
+        self.ZipWatchCommand = ''
         self.DeleteCommand = f'del{CMD_INDEX}'
         self.ShellCommand = f'shell{CMD_INDEX}'
         self.ExecHelpCommand = f'exechelp{CMD_INDEX}'
-        self.LeechSetCommand = f'leechset{CMD_INDEX}'
-        
+        self.LeechSetCommand = ''
+        self.SetThumbCommand = ''
+        self.LeechCommand = ''
+        self.UnzipLeechCommand = ''
+        self.ZipLeechCommand = ''
+        self.LeechWatchCommand = ''
+        self.LeechZipWatchCommand = ''
         
 BotCommands = _BotCommands()
