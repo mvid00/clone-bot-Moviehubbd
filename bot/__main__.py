@@ -109,19 +109,19 @@ def stats(update, context):
 def start(update, context):
     buttons = ButtonMaker()
     buttons.buildbutton(
-        "Repo", "https://www.github.com/yashoswalyo/clone-bot-public"
+        "Support Group✅", "https://t.me/moviehubbd"
     )
-    buttons.buildbutton("Report Group", "https://t.me/yash_codes_support")
+    buttons.buildbutton("Channel✅", "https://t.me/moviehub24hr")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f"""
-This bot can mirror all your links to Google Drive!
+This bot can mirror all your links to Google Drive By @moviehubbd !
 Type /{BotCommands.HelpCommand} to get a list of available commands
 """
         sendMarkup(start_string, context.bot, update.message, reply_markup)
     else:
         sendMarkup(
-            "Not Authorized user, deploy your own clone bot",
+            "JOIN OUR GROUP AND CHANNAL FOR UPDATE",
             context.bot,
             update.message,
             reply_markup,
@@ -267,7 +267,7 @@ def main():
                 if ospath.isfile(".restartmsg"):
                     with open(".restartmsg") as f:
                         chat_id, msg_id = map(int, f)
-                    msg = "Restarted successfully!"
+                    msg = "Restarted successfully!✅"
                 else:
                     msg = "Bot Restarted!"
                 for tag, links in data.items():
@@ -283,7 +283,7 @@ def main():
                             else:
                                 bot.sendMessage(cid, msg, "HTML")
                             msg = ""
-                if "Restarted successfully!" in msg and cid == chat_id:
+                if "Restarted successfully!✅" in msg and cid == chat_id:
                     bot.editMessageText(msg, chat_id, msg_id, parse_mode="HTMl")
                     osremove(".restartmsg")
                 else:
@@ -333,7 +333,7 @@ def main():
     dispatcher.add_handler(stats_handler)
     dispatcher.add_handler(log_handler)
     updater.start_polling(drop_pending_updates=IGNORE_PENDING_REQUESTS)
-    LOGGER.info("Bot Started!")
+    LOGGER.info("Bot Started!✅")
     signal(SIGINT, exit_clean_up)
 
 
