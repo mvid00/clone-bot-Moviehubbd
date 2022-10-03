@@ -17,7 +17,7 @@ from bot import (
     DOWNLOAD_DIR,
 )
 from bot.helper.tg_helper.make_buttons import ButtonMaker
-
+EMOJI_THEME=True
 MAGNET_REGEX = r"magnet:\?xt=urn:btih:[a-zA-Z0-9]*"
 
 URL_REGEX = r"(?:(?:https?|ftp):\/\/)?[\w/\-?=%.]+\.[\w/\-?=%.]+"
@@ -27,17 +27,17 @@ PAGE_NO = 1
 
 
 class MirrorStatus:
-    STATUS_UPLOADING = "Uploading...📤"
-    STATUS_DOWNLOADING = "Downloading...📥"
-    STATUS_CLONING = "Cloning...♻️"
-    STATUS_WAITING = "Queued...💤"
-    STATUS_FAILED = "Failed 🚫. Cleaning Download..."
-    STATUS_PAUSE = "Paused...⛔️"
-    STATUS_ARCHIVING = "Archiving...🔐"
-    STATUS_EXTRACTING = "Extracting...📂"
-    STATUS_SPLITTING = "Splitting...✂️"
-    STATUS_CHECKING = "CheckingUp...📝"
-    STATUS_SEEDING = "Seeding...🌧"
+    STATUS_UPLOADING = "𓊈𒆜𝖀𝖕𝖑𝖔𝖆𝖉𝖎𝖓𝖌𒆜𓊉...📤"
+    STATUS_DOWNLOADING = "𓊈𒆜𝕯𝖔𝖜𝖓𝖑𝖔𝖆𝖉𝖎𝖓𝖌𒆜𓊉...📥"
+    STATUS_CLONING = "𓊈𒆜𝕮𝖑𝖔𝖓𝖎𝖓𝖌𒆜𓊉.☢️♻️"
+    STATUS_WAITING = "𓊈𒆜𝕼𝖚𝖊𝖚𝖊𝖉𒆜𓊉...💤"
+    STATUS_FAILED = "𓊈𒆜𝕱𝖆𝖎𝖑𝖊𝖉 🚫. 𝕮𝖑𝖊𝖆𝖓𝖎𝖓𝖌 𝕯𝖔𝖜𝖓𝖑𝖔𝖆𝖉𒆜𓊉..."
+    STATUS_PAUSE = "𓊈𒆜𝕻𝖆𝖚𝖘𝖊𝖉𒆜𓊉...⛔️"
+    STATUS_ARCHIVING = "𓊈𒆜🅰🆁🅲🅷🅸🆅🅸🅽🅶𒆜𓊉.⚜️🔐"
+    STATUS_EXTRACTING = "𓊈𒆜🅴🆇🆃🆁🅰🅲🆃🅸🅽🅶𒆜𓊉...📂"
+    STATUS_SPLITTING = "𓊈𒆜𝕾𝖕𝖑𝖎𝖙𝖙𝖎𝖓𝖌𒆜𓊉...✂️"
+    STATUS_CHECKING = "𓊈𒆜𝕮𝖍𝖊𝖈𝖐𝖎𝖓𝖌𝖀𝖕𒆜𓊉...📝"
+    STATUS_SEEDING = "𓊈𒆜𝕾𝖊𝖊𝖉𝖎𝖓𝖌𒆜𓊉...🌧"
 
 
 SIZE_UNITS = ["B", "KB", "MB", "GB", "TB", "PB"]
@@ -130,8 +130,8 @@ def get_progress_bar_string(status):
     p = 0 if total == 0 else round(completed * 100 / total)
     p = min(max(p, 0), 100)
     cFull = p // 8
-    p_str = "■" * cFull
-    p_str += "□" * (12 - cFull)
+    p_str = "█" * cFull
+    p_str += "░" * (12 - cFull)
     p_str = f"[{p_str}]"
     return p_str
 
@@ -189,6 +189,7 @@ def get_readable_message():
                 msg += f"\n<code>/{BotCommands.CancelMirror} {download.gid()}</code>"
             else:
                 msg += f"\n<b>Size: </b>{download.size()}"
+            msg += f"\n<b>[~~☢️MOVIEHUBBD☢️~~]</b>"
             msg += "\n\n"
             if STATUS_LIMIT is not None and index == STATUS_LIMIT:
                 break
